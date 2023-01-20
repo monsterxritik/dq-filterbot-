@@ -174,15 +174,8 @@ Nᴀᴍᴇ - {}"""
 <b><i>{file_name} » {file_size} › [Top10ner movie](https://t.me/top10ner_0)</i></b>
 """
 
-    IMDB_TEMPLATE_TXT = 
-"""🎬 ᴛɪᴛᴛʟᴇ</b></i> : <i><b><a href={url}>{title}</a></b></i>
-🗒️ ʀᴇʟᴇᴀsᴇ</b></i> : <i><b>{release_date}</b></i>
-⏰ ᴅᴜʀᴀᴛɪᴏɴ</b></i> : <i><b>{runtime} Minutes</b></i>
-🌟 ɪᴍᴅʙ ʀᴀᴛɪɴɢ</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i>
-🎭 ɢᴇɴʀᴇ</b></i> : <i><b>{genres}</b></i>
-🔊 ʟᴀɴɢᴜᴀɢᴇ</b></i> : <i><b>#{languages}</b></i>
-
-👩🏻‍💻 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ</b></i> : <i><b>{message.from_user.mention}</b></i>"""
+    IMDB_TEMPLATE_TXT = """
+<i><b>🎬 ᴛɪᴛᴛʟᴇ</b></i> : <i><b><a href={url}>{title}</a></b></i> <i><b>🗒️ ʀᴇʟᴇᴀsᴇ</b></i> : <i><b>{release_date}</b></i> <i><b>⏰ ᴅᴜʀᴀᴛɪᴏɴ</b></i> : <i><b>{runtime} Minutes</b></i> <i><b>🌟 ɪᴍᴅʙ ʀᴀᴛɪɴɢ</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i> <i><b>🎭 ɢᴇɴʀᴇ</b></i> : <i><b>{genres}</b></i> <i><b>🔊 ʟᴀɴɢᴜᴀɢᴇ</b></i> : <i><b>#{languages}</b></i>  <i><b>👩🏻‍💻 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ</b></i> : <i><b>{message.from_user.mention}</b></i>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
